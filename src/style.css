@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h2,
+h3,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cover-text {
+  margin: 200px 300px 400px;
+  text-align: center;
+}
+.btn-secondary {
+  border-radius: 5px;
+}
