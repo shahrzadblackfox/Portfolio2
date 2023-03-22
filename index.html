@@ -10,7 +10,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/style.css" />
+
     <meta name="description" content="Shahrzad Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,66 +18,74 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="src/style.css" />
 
     <title>Shahrzad</title>
   </head>
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shahrzad</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul-text-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/"
-                  title="Home page"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html" title="About me page"
-                  >About Me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/about.html#contact"
-                  title="contact links and address"
-                  >Contact</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/work.html" title="projects">Works</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <main class="cover-text">
-        <h2>Hi I'm</h2>
-        <h1>Shahrzad Amirrahimi</h1>
-        <p>Frontend Developer, based in Iran.</p>
-        <button type="button" class="btn btn-warning">Get Started</button>
-      </main>
 
-      <div class="row mt-5">
-        <p>Featured Project which my best projects be choice to show</p>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shahrzad</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul-text-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Home page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About me page"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="contact links and address"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html" title="projects">Works</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+    <div class="hero">
+      <p>Hi I'm</p>
+      <h1>Shahrzad Amirrahimi</h1>
+      <h2 class="mb-5">Frontend Developer, based in Iran.</h2>
+
+      <a
+        type="button"
+        class="btn btn-warning btn-branding"
+        href="#"
+        title="get started"
+        >Get Started
+      </a>
+    </div>
+
+    <div class="row mt-5">
+      <p>Featured Project which my best projects be choice to show</p>
     </div>
 
     <script
