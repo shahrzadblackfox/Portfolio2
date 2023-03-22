@@ -98,3 +98,7 @@ p {
     padding: 80px 20px;
   }
 }
+
+.footer-elements a {
+  font-size: 30px;
+}
