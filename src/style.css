@@ -4,7 +4,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: var(--default-font-family);
 }
 h1,
@@ -18,10 +18,17 @@ h6 {
 h1 {
   font-size: 80px;
 }
+h2 {
+  font-size: 64px;
+}
 
 p,
 a {
   font-weight: normal;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 .navbar-nav,
 .mr-auto {
@@ -59,4 +66,15 @@ a {
 .btn-branding:hover {
   color: white;
   background-color: black;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
