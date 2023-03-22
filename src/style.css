@@ -1,18 +1,28 @@
+:root {
+  --main-background: #212529;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
 body {
-  background-color: black;
-  color: aliceblue;
+  overflow: hidden;
+  font-family: var(--default-font-family);
 }
-
-h1 {
-  font-family: "Playfair Display", serif;
-}
-
+h1,
 h2,
 h3,
-p {
-  font-family: "Poppins", sans-serif;
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 80px;
 }
 
+p,
+a {
+  font-weight: normal;
+}
 .navbar-nav,
 .mr-auto {
   flex: 1;
@@ -21,10 +31,32 @@ p {
   justify-content: flex-end;
 }
 
-.cover-text {
-  margin: 200px 300px 400px;
+.hero {
+  background-color: var(--main-background);
+  color: aliceblue;
   text-align: center;
+  padding: 120px 0;
 }
-.btn-secondary {
-  border-radius: 5px;
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-size: 24px;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 30px;
+  font-weight: bold;
+  transition: color 5s, background-color 3s;
+}
+.btn-branding:hover {
+  color: white;
+  background-color: black;
 }
