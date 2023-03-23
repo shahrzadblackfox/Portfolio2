@@ -146,7 +146,13 @@
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary mt-5">Submit</button>
+            <button
+              type="submit"
+              id="send-message"
+              class="btn btn-primary mt-5"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
@@ -200,5 +206,12 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function Apply() {
+        window.open("mailto:ar6shahrzad@gmail.com");
+      }
+      let sendMessage = document.querySelector("#send-message");
+      sendMessage.addEventListener("click", Apply);
+    </script>
   </body>
 </html>
