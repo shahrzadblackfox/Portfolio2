@@ -82,6 +82,31 @@ p {
   padding: 120px 60px 0;
 }
 
+.footer-elements a {
+  font-size: 30px;
+}
+.about-section {
+  padding: 120px 0;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.about-section img {
+  border-radius: 15px;
+  max-width: 75%;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
@@ -97,8 +122,11 @@ p {
   .hero {
     padding: 80px 20px;
   }
-}
-
-.footer-elements a {
-  font-size: 30px;
+  .about-section {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .about-section img {
+    max-width: 50%;
+  }
 }
