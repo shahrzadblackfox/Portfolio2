@@ -35,12 +35,27 @@
   <body>
     <div class="container nav-base">
       <nav class="d-flex justify-content-between">
-        <a class="m-4" href="/" style="font-size: 20px">Shahrzad</a>
+        <a class="m-4" href="/" style="font-size: 20px" title="brand name"
+          >Shahrzad</a
+        >
         <ul class="m-4">
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/about.html" class="text-muted">About</a></li>
-          <li><a href="/about.html#contact" class="text-muted">Contact</a></li>
-          <li><a href="/work.html" class="text-muted">Works</a></li>
+          <li><a href="/" class="active" title="home page">Home</a></li>
+          <li>
+            <a href="/about.html" class="text-muted" title="about page"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="/about.html#contact"
+              class="text-muted"
+              title="contact link"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" class="text-muted" title="works page">Works</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -53,7 +68,7 @@
       <a
         type="button"
         class="btn btn-warning btn-branding"
-        href="#"
+        href="/index.html"
         title="get started"
         >Get Started
       </a>
@@ -127,7 +142,7 @@
             <a
               href="https://www.shecodes.io/contests/pop-star-landing-page/contest_entries/shahrzad-amirrahimi-iranian/preview"
               class="btn btn-branding-outline"
-              title="Dictionary App"
+              title="Pop Star Landing Page Challenge"
               >Learn more
             </a>
           </div>
@@ -145,6 +160,7 @@
             <a
               href="mailto:ar6shahrzad@gmail.com"
               class="nav-link px-2 text-muted"
+              title="email link"
               ><i class="fa fa-envelope"></i
             ></a>
           </li>
@@ -152,6 +168,8 @@
             <a
               href="https://www.linkedin.com/in/shahrzad-amirrahimi-1a4a82197/"
               class="nav-link px-2 text-muted"
+              target="_blank"
+              title="linkedin page"
               ><i class="fa fa-linkedin"></i
             ></a>
           </li>
@@ -159,11 +177,21 @@
             <a
               href="https://github.com/shahrzadblackfox"
               class="nav-link px-2 text-muted"
+              target="_blank"
+              title="github profile"
               ><i class="fa fa-github"></i
             ></a>
           </li>
         </ul>
       </footer>
+      <div class="text-center">
+        <p>
+          This project was coded by Shahrzad, and it is
+          <a href="https://github.com/shahrzadblackfox/Portfolio2"
+            >open-sourced</a
+          >
+        </p>
+      </div>
     </div>
 
     <script
