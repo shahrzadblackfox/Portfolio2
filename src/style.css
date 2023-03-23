@@ -131,6 +131,16 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
+  margin-left: 15px;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: color 3s;
+}
+nav a:hover {
+  color: #f3b807;
 }
 
 @media (max-width: 960px) {
